@@ -1,0 +1,19 @@
+{
+  "name": "now-config",
+  "version": "1.0.0",
+  "description": "CLI to generate a now.sh configuration file.",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/"
+  },
+  "keywords": [],
+  "author": "Drake",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
